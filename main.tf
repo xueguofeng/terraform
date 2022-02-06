@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "example-org-1d8e2c"
+    organization = "rx-terraform"
     workspaces {
       name = "integration"
     }
